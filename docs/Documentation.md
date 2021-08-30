@@ -165,7 +165,7 @@ Adds one or more tracks to the queue.
 | insertBeforeIndex | `number` | The index of the track that will be located immediately after the inserted tracks. Set it to `null` to add it at the end of the queue |
 
 #### `remove(tracks)`
-Removes one or more tracks from the queue.
+Removes one or more tracks from the queue. Note: Current track can't be removed 
 
 **Returns:** `Promise`
 
